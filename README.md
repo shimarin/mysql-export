@@ -26,6 +26,7 @@ import.sh というインポート用のスクリプトも同時に生成され�
 - ```--user USER```
 root権限を持ったMySQLユーザー名を指定します。デフォルト=root
 - ```--password PASSWORD``` 上記ユーザーのパスワードを指定します。
+- ```--output-dir OUTPUT_DIR``` 出力先ディレクトリを指定します。デフォルト=./mysql-export
 - ```--database-exclude DATABASE_EXCLUDE``` エクスポートから除外したいデータベースを指定します。複数回指定可能
 - ```--no-content``` データベースの中身をエクスポートしません
 - ```--log-level LOG_LEVEL``` ログレベルを指定します。デフォルト=INFO
